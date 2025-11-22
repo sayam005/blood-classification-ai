@@ -1,0 +1,40 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv/
+ENV/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Dataset (too large for git)
+dataset/
+*.h5
+*.hdf5
+
+# Models (large files)
+saved_models/
+*.pkl
+*.pth
+
+# Results/plots
+results/
+*.png
+*.jpg
+*.jpeg
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
